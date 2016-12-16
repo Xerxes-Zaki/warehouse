@@ -1,0 +1,76 @@
+/*重置样式*/
+*{ margin: 0; padding: 0; list-style: none;font-family: "微软雅黑";font-size: 12px;text-decoration: none;}
+body{background: #f7f7f7;}
+/*商品购买模板*/
+	.payContainer{width: 958px;margin: 10px auto 15px;background: #fff;padding: 20px;border: 1px solid#ddd;}
+		.gallery{width: 457px;height: 548px;position: relative;}
+		.bannerMedium{width: 420px;height: 420px;border: 1px solid #e6e6e6;top: 0;left: 0;position: relative;cursor: crosshair;}
+			.bannerMedium img{width: 430px;height: 430px;position: absolute;top: 0;left: 0;}
+			/*.ima2{display: none;}*/
+			.pop{width: 185px;height: 185px;position: absolute;background: blue;opacity: 0.3;top: 0;left: 0;display: none;}
+		.bannerBig{width: 350px;height: 350px;position: absolute;top: 10px;left: 457px;border:1px solid #e6e6e6;overflow: hidden;display: none;z-index: 999;}
+			.bannerBig img{width: 800px;height: 800px;position: absolute;top: 0;left: 0;}
+		.bannerSmall{width: 422px;height: 66px;top: 430px;left: 10px;position: absolute;}
+		.bannerSmall img{border: 1px solid #e6e6e6;position: absolute;width: 50px;height: 50px;}
+
+		.detailOption{width: 500px;float: right;margin-top: -547px;}
+		.detailOption h1{font-size: 20px;color: #333;margin-bottom: 15px;}
+		
+		.detailButton a{margin-left: 6px;}
+		/*服务承诺*/
+		.commitment{border-top: 1px solid #eee;margin-top: 10px;padding-top: 5px;}
+		.commitment-leading{width: 70px;display: inline-block;color: #666;}
+		.item{color: #666;margin-right: 35px;margin-left: 3px;}
+		/*.anti-counterfuit{background: url(../img/goodDetail/zheng.jpg) no-repeat;}
+		.day-back{background: url(../img/goodDetail/qi.jpg) no-repeat;}
+		.songji{background: url(../img/goodDetail/song.jpg) no-repeat;}*/
+
+/*选项卡*/
+	.detail_page{width: 1000px;height: auto;margin: 0 auto;}
+	.deal_cont{width: 750px;height: auto;float: left;}
+	.deal_intro{position: relative;width: 748px;border: 1px solid #e5e5e5;background: #fff;}
+	.clearfix{zoom: 1;}
+	.clearfix:after{clear: both;height: 0;overflow: hidden;display: block;visibility: hidden;content: ".";}
+	.deal_stuff{position: relative;width: 750px;}
+	.stuff_tab{position: absolute;left: 0;top: 0;z-index: 1000;}
+	#portamento_container{min-height: 36px;width: 750px;}
+	.stuff_tab .tab_T{width: 746px;height: 32px;line-height: 32px;top: 0;background: #fff;border: 1px solid #e5e5e5;padding: 1px;background: url(../img/goodList/stuff_tab_bg.png) repeat-x 0 0;}
+	.stuff_tab .tab_T ul{float: left;}
+	.stuff_tab .tab_T ul li{float: left;text-align: center;}
+	.stuff_tab .tab_T ul li a{display: block;color: #333;padding: 0 15px;text-decoration: none;}
+	.stuff_tab .tab_T ul .current{color: #333;background: url(../img/goodList/stuff_tab_bg.png) repeat-x 0 -35px;}
+	.stuff_tab .tab_T ul .line{width: 2px;height: 32px;padding: 0;background: url(../img/goodList/stuff_tab_bg.png) no-repeat 0 -70px;}
+	.stuff_tab .tab_T ul li .bg_new{display: block;padding-right: 25px;background: url(../img/goodList/bg-new.png) no-repeat right 4px;}
+	.stuff_tab .tab_T .num_pp{float: left;margin-left: 50px;font-weight: bold;}
+	.stuff_tab .tab_T .num_pp .red{font-size: 14px;color: #d41f2b;margin: 0 2px;}
+	.stuff_tab .tab_T .buyBtn{display: block;float: right;margin-right: 20px;width: 150px;height: 30px;background: url(../img/goodList/buying.png) no-repeat;}
+	
+	.deal_stuff .box_content{position: relative;padding-top: 45px;border: 1px solid #e5e5e5;border-top: none;background: #fff;display: none;}
+	.price_buy{position: relative;width: 439px;height: 57px;background: url(../img/goodList/deal_buy_439.png) no-repeat;margin: 0 auto;margin-bottom: 30px;overflow: hidden;}
+	.price_buy .discount{float: left;width: 160px;margin: 10px 10px 0 10px;}
+	table{border-collapse: collapse;border-spacing: 0;}
+	tbody{display: table-row-group;vertical-align: middle;border-color: inherit;}
+	tr{display: table-row;vertical-align: inherit;border-color: inherit;}
+	.price_buy .discount td{text-align: center;color: #555;line-height: 20px;}
+	.guess{width: 750px;border: 1px solid #ddd;border-radius: 3px;background: #fff;margin-bottom: 15px;}
+	.guess_title{height: 32px;line-height: 32px;color: #666;margin-bottom: 10px;padding: 0 12px;background: url(../img/goodList/side_title_bg.png) repeat-x;}
+	.guess_title h2{float: left;}
+	.guess_title .more{display: block;float: right;padding-right: 10px;background: url(../img/goodList/side_title_more.png) no-repeat right center;}
+	.guess_cont{width: 750px;height: 166px;overflow: hidden;}
+	.price_buy .price{float: left;width: 120px;text-align: center;margin: 5px 0 0;font-size: 24px;font-weight: bold;color: #ce1b1f;}
+	.price_buy .price span{font-size: 36px;}
+	.price_buy .doing_buy_btn{float: right;width: 113px;height: 39px;margin: 8px 15px 0 0;background: url(../img/goodList/deal_buy_01.png) no-repeat;text-indent: -9999px;}
+	
+
+/*右侧菜单栏*/
+	#rightBar{width: 300px;height: 100%;position: fixed;right: -264px;top: 0;z-index: 10000;}
+		.magicBar{width: 36px;height: 100%;float: left;background: #000;position: relative;}
+		.mbar{width: 36px;height: 367px;position: absolute;z-index: 10;left: 0;top: 30%;}
+		.mbar-mod{width: 28px;height: 66px;padding: 4px 4px;margin-bottom: 10px;}
+		.mbar-mod:hover{background: #a90a0a;}
+		.mbar-mod img{margin-left: 3px;}
+		.mbar-mod span{color: #fff;}
+		
+		#mbarCart{width: 20px;height: 20px;line-height: 20px;border-radius: 50%;color: #fff;background: #a90a0a;text-align: center;}
+		
+		.cartBar{width: 264px;height: 100%;float: right;background: #FFF url(../img/index/kcart_04.gif) no-repeat 45% center;}

@@ -1,0 +1,10 @@
+/*头部*/
+#header{width: 1000px;height: 27px;margin: 0 auto;}
+	#header ul li,#header span{float: left;line-height: 27px;}
+	#header a{color: #333;}
+	#header a:hover{color: #d41f2b;}
+	#header span{margin: 0 10px;}
+	.header-top-img,.header-ul1,.header-ul2,.header-ul3,.header-bottom-img{float: left;}
+	.header-right{float: right;}
+	.header-bottom-img{margin-left: 16px;}
+	.header-ul3{margin-left: 20px;}

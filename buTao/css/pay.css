@@ -1,0 +1,23 @@
+/*支付*/
+	.bdw{background: #f7f7f7;}
+	.bd{width: 1000px;margin: 0 auto;padding-top: 10px;padding-bottom: 40px;}
+	.shopping_cart{width: 1000px;padding-top: 10px;padding-bottom: 20px;}
+	.shop_menu{width: 1000px;height: 30px;margin-bottom: 60px;background: url(../img/pay/shop_menu_bg.png) repeat-x left center;}
+	.clearfix{zoom: 1;}
+	.shop_menu .menu_01{background-position: 152px 5px;}
+	.shop_menu .menu_02{background-position: 152px -55px;}
+	.shop_menu .menu_03{background-position: 152px -115px;}
+	.shop_menu li{float: left;width: 330px;text-align: center;padding-top: 35px;color: #555;background: url(../img/pay/shop_menu_li.png) no-repeat;}
+	
+	.order_info .title{width: 978px;height: 30px;line-height: 30px;padding-left: 20px;border: 1px solid #e2dee2;background: faf7f8;font-weight: bold;color: #5e5058;}
+	.order_info .title a{margin-left: 20px;}
+	
+	.order_info .cont{width: 958px;border: 1px solid #e2dee2;border-top: none;background: #fff;margin-bottom: 20px;float: left;padding: 10px 20px;}
+	.order_info .cont .box{padding: 5px;line-height: 20px;}
+	.order_info .cont .add_site{background: faf7f8;padding: 10px;margin-bottom: 20px;}
+	.add_form dt{float: left;clear: left;padding: 5px;line-height: 22px;width: 120px;text-align: right;}
+	.add_form dd{float: left;width: 630px;padding: 5px;line-height: 22px;}
+	.input_24{width: 240px;}
+	.input_30{width: 300px;}
+	.add_form .input_24,.add_form .input_30{background: #fff;border: 1px solid #ccc;height: 18px;line-height: 18px;padding: 1px 3px;}
+	.btn_red_100{display: inline-block;width: 100px;height: 30px;line-height: 30px;border: none;background: url(../img/pay/shopping_cart.png) no-repeat -125px -140px;color: #fff;font-size: 13px;text-align: center;cursor: pointer;}

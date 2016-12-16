@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" type="text/css" href="../css/common/reset.css"/>
+    <!--公用的样式-->
+    <link rel="stylesheet" type="text/css" href="../css/common/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common/home.css"/>
+	<!-- 自己的样式 -->
+    <link rel="stylesheet" type="text/css" href="../css/regist.css"/>
+</head>
+<body>
+	<div id="box">
+		<div class="reg">
+			<div class="content">
+				<!--头部-->
+				<div class="clearfix">
+					<a href="index.html"><img src="../img/login/reg_logo.png"/></a>
+					<div class="reg_login_btn">
+						已注册？
+						<a href="login.html">登录</a>
+					</div>
+				</div>
+				<!--注册界面-->
+				<div class="reg_bg">
+					<div class="reg_box">
+						<div class="reg_vip">欢迎您加入步淘网，注册只需15秒，超值优惠每天享受！</div>
+						<form action="">
+							<dl class="clearfix" style="position: relative";>
+								<dt>邮箱：</dt>
+								<dd>
+									<input class="in_240" type="text" placeholder="请输入邮箱" data-ori="请输入邮箱" name="email" id="login-email" msgid="login-email-msg" is_error="1" />
+									<ul class="email_list" style="position: absolute;left: 100px;top: 40px;display: block;background: #fff;cursor: pointer;"></ul>
+									<span class="tip_icon_email tip_wrong"></span>
+									<p class="hint tip_txt" id="login-email-msg"></p>
+								</dd>
+								<dt>用户名：</dt>
+								<dd>
+									<input class="in_240" type="text" placeholder="请输入手机号码" data-ori="请输入手机号码" name="username" id="login-username" msgid="login-username-msg" is_error="1" />
+									<span class="tip_icon_user tip_wrong"></span>
+									<p class="hint tip_txt" id="login-username-msg"></p>
+								</dd>
+								<dt>密码：</dt>
+								<dd>
+									<input class="in_240" type="password" placeholder="请输入密码" name="password" id="login-password" is_error="1" />
+									<span class="tip_icon_pwd1 tip_wrong"></span>
+									<p class="hint tip_txt1"></p>
+								</dd>
+								<dt>确认密码：</dt>
+								<dd>
+									<input class="in_240" type="password" placeholder="请再次输入密码" data-ori="请再次输入密码" name="password2" id="login-password2" is_error="1" />
+									<span class="tip_icon_pwd2 tip_wrong"></span>
+									<p class="hint tip_txt2"></p>
+								</dd>
+								<dt></dt>
+								<dd>
+									<input id="remember" type="checkbox" checked="checked" />
+									<label class="bjrcb" for="remember">
+										<span>我已阅读并接受	<a class="red" href="#">《步淘网用户协议》</a>。</span><span id="agree"></span>
+									</label>
+								</dd>
+								<dt></dt>
+								<dd>
+									<input class="reg_btn" id="submit_btn" type="submit" value="" /><span id="agree"></span>
+									<!--<p id="success"></p>-->
+								</dd>
+							</dl>
+						</form>
+						<div class="quick_login">
+							<h4>您也可以用合作网站账号登录步淘</h4>
+							<a href="#"><img src="../img/regist/quick_02.png"/></a>
+							<a href="#"><img src="../img/regist/quick_01.png"/></a>
+							<a href="#"><img src="../img/regist/quick_03.png"/></a>
+							<a href="#"><img src="../img/regist/quick_04.png"/></a>
+							<a href="#"><img src="../img/regist/quick_05.png"/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reg_pic">
+				<img src="../img/regist/reg_pic.png"/>
+			</div>
+		</div>
+	</div>
+	
+	<!--尾部-->
+	<div id="footer"></div>
+	
+	<!--右侧工具栏-->
+	<div class="home_go_top_R"></div>
+	
+	
+	<script src="../lib/jquery-1.12.3.js"></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+	<script src="../js/common/common.js"></script>
+	<script type="text/javascript">
+		/*尾部*/
+		loadHtml("../html/common/footer.html","#footer");
+		/*右侧工具栏*/
+		loadHtml("../html/common/home.html",".home_go_top_R");
+	</script>
+	<script src="../js/regist.js"></script>
+</body>
+</html>

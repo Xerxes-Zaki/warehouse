@@ -1,0 +1,38 @@
+/*重置样式*/
+*{ margin: 0; padding: 0; list-style: none;font-family: "微软雅黑";font-size: 12px;text-decoration: none;}
+
+
+/*分类*/
+	.topFenLi{width: 1000px;height: auto;margin: 20px auto;}
+	.topFenLi ul{border: 1px solid #ddd;border-top: none;border-bottom: none;position: relative;top: -2px;left: -2px;line-height: 18px;}
+	.topFenLi li{padding: 10px 5px 10px 65px;border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;position: relative;}
+	.clearfix{zoom: 1;}
+	.topFenLi span{width: 60px;text-align: right;font-size: bold;position: absolute;top: 12px;left: 0;}
+	.topFenLi a{color: #38599e;display: inline-block;zoom: 1;padding: 0 2px;margin: 2px 15px 2px 0;text-decoration: none;}
+	/*.on{color: #fff;background: #f95a0e;}*/
+	.topFenLi em{color: #999;}
+	.son{padding: 5px 10px;background: #f2f2f2;border: 1px solid #eee;margin-top: 5px;}
+	
+	.brandRank{width: 980px;height: 35px;line-height: 35px;padding: 0 10px;border-bottom: 1px solid #eee9ee;background: #f1eff2;margin: 0 auto 20px;}
+	.rank{width: 980px;float: left;}
+	.rank span{float: left;margin-right: 5px;}
+	.rank li{float: left;margin: 5px 20px 0 0;height: 20px;line-height: 20px;border: 1px solid #dbd7d9;background: url(../img/goodList/brand_rank_bg.png) repeat-x;}
+	.rank li a{display: block;margin-right: 15px;margin: 0 10px;}
+	.arrowsTop{background: url(../img/goodList/arrows.png) no-repeat 22px 5px;}
+	.arrowsBottom{background: url(../img/goodList/arrows.png) no-repeat 22px -15px;}
+
+/*列表*/
+	.listBox{width: 1000px;height: auto;margin-bottom: 20px;margin: 0 auto;}
+	.listBox li{width: 318px;height: 345px;float: left;margin: 0 20px 20px 0;}
+	/*.listHome{width: 1020px;}*/
+	
+/*翻页*/
+	.pageDiv{padding: 15px 20px;text-align: center;color: #ccc;clear: both;}
+	.pageDiv a{display: inline-block;color: #4c4c4c;background: #f6fbf9;height: 25px;line-height: 25px;	padding: 3px 18px;border: 1px solid #ddd;	margin: 0 2px;vertical-align: middle;font-size: 14px;}
+	.pageDiv a:hover{text-decoration: none;border: 1px solid #428bca;}
+	.pageDiv span.current{display: inline-block;height: 25px;line-height: 25px;padding: 0 18px;margin: 0 2px;color: #ed601b;border-radius: 4px;vertical-align: middle;}
+	.pageDiv span.disabled{display: inline-block;height: 25px;line-height: 25px;padding: 3px 18px;margin: 0 2px;	color: #bfbfbf;background: #f2f2f2;border: 1px solid #bfbfbf;vertical-align: middle;}
+	.pageDiv span.pagecount{padding: 0 10px;font-size: 14px;color: #999999;margin-right: -30px;}
+	.pageDiv span.countYe{color: #4C4C4C;font-size: 14px;margin-left: 30px;}
+	.pageDiv span.countYe input{outline: none;border: 1px solid #ddd;height: 25px;padding: 3px 10px;width: 25px;margin: 0 5px;}
+	.pageDiv a.turndown{padding: 3px 10px;}

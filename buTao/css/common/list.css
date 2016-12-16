@@ -1,0 +1,14 @@
+/*框*/
+	.listFrame {width: 318px;height: 345px;border: 1px solid #e5e5e5;cursor: pointer;}
+	.listFrame:hover {border: 1px solid #aa001b;box-shadow: 0 0 15px #9a9a9a;}
+	.listFrame h2 {width: 288px;height: 44px;line-height: 22px;margin: 10px 15px;overflow: hidden;}
+	.listFrame h2 a {font-weight: bold;color: #666;font-size: 15px;}
+	.pic {width: 288px;height: 190px;border: 1px solid #a51100;margin: 0 15px;overflow: hidden;}
+	.pic img {width: 288px;height: 288px;}
+	.goBay {width: 288px;height: 46px;margin: 0 15px;border: 1px solid #a51100;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;background: url(../../img/goodList/go_see_bg.png) repeat-x 0 0;}
+	.goBay .listPrice {float: left;margin: 5px 0 0 8px;font-size: 38px;font-weight: bold;height: 40px;line-height: 40px;color: #fff;}
+	.listPrice b {font-size: 26px;}
+	.goBay #listBtn img {margin: 10px 10px 0 0;float: right;width: 76px;height: 31px;}
+	.listLeft{padding: 8px 15px;}
+	.listLeft span {text-decoration: line-through;}
+	.listRight span {font-weight: bold;color: #d41f2b;}

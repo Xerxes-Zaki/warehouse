@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" type="text/css" href="../css/common/reset.css">
+    <!--公用的样式-->
+    <link rel="stylesheet" type="text/css" href="../css/common/common.css">
+    <!--头部样式-->
+    <link rel="stylesheet" type="text/css" href="../css/common/header.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common/logo.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="../css/common/nav.css"/>-->
+    <link rel="stylesheet" type="text/css" href="../css/common/style.css"/>
+    <!--尾部样式-->
+    <link rel="stylesheet" type="text/css" href="../css/common/footer.css"/>
+    <!--右侧-->
+    <link rel="stylesheet" type="text/css" href="../css/common/home.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common/rightMenu.css"/>
+	<!-- 自己的样式 -->
+    <link rel="stylesheet" type="text/css" href="../css/shopCar.css"/>
+</head>
+<body>
+<!-- 头部 -->
+	<div id="header"></div>
+<!--LOGO、搜索-->
+	<div id="logo"></div>
+<!--横向导航栏-->
+	<div id="nav1"></div>
+	
+<!--商品订单-->
+	<div class="bdw" style="background: #f7f7f7;">
+		<div class="cartBox">
+			<div class="shopingCart">
+				<div class="shopMenu">
+					<ul class="clearfix">
+						<li class="menu_01">购物车下单</li>
+						<li class="menu_02">在线支付</li>
+						<li class="menu_03">下单成功</li>
+					</ul>
+				</div>
+				<div id="updater-list">
+					<table class="shopTable" cellpadding="0" cellspacing="0" border="0">
+						<thread>
+							<tr>
+								<!--<th width="20"></th>-->
+								<th colspan="2">商品</th>
+								<th width="100">数量(件)</th>
+								<th width="100">单价(元)</th>
+								<th width="100">优惠(元)</th>
+								<th width="100">小计(元)</th>
+								<th width="80">操作</th>
+							</tr>
+						</thread>
+						<tbody>
+						<!--购物车商品列表-->
+							<div class="cartList">
+								<!--<tr>
+									<td width="120" class="bdR">
+										<input type="checkbox" class="chCart" />
+										<a href="goodDetail.html">
+											<img src="../img/shopCar/14802989282391.jpg"/>
+										</a>
+									</td>
+									<td width="500" class="bd_L align_L">
+										<span class="mar_R">森马毛衣 2016冬装新款 女士圆领套头字母提花宽松毛衫针织衫韩版</span>
+										<span class="mar_R red">宝蓝@L</span>
+									</td>
+									<td>
+										<div class="select_num clearfix">
+											<div class="minus_plus">
+												<input type="button" class="reduce btn_ra" value="-" />
+												<input type="text" class="input_txt" value="1" />
+												<input type="button" class="add btn_ra" value="+" />
+												件
+											</div>
+										</div>
+									</td>
+									<td class="price">￥<span>89.00</span></td>
+									<td>￥0</td>
+									<td class="minor">￥<span>89</span></td>
+									<td>
+										<a href="#" class="del_min">删除</a>
+									</td>
+								</tr>-->
+								<div class="cart_body"></div>
+							</div>
+						<!--。-->
+							<tr>
+								<td colspan="7" class="align_R">
+									</span><input type="checkbox" id="checkboxCart" />
+									<a href="##" class="del_all">删除选中</a>
+									<span class="mar_L font_16">
+										商品数量：<span id="total_quantity" class="red"> 0 </span>件
+									</span>
+									<span class="mar_L font_16">
+										商品总价(不含邮费)：<span id="total_money" class="red"> 0 </span>	
+									</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="shop_info clearfix">
+					<a href="#" class="sh_buy_02">
+						<img src="../img/shopCar/sh_buy_01.png"/>
+					</a>
+					<a href="index.html" class="sh_buy_01">
+						<img src="../img/shopCar/sh_buy_02.png"/>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--底部-->
+	<div id="footer" style="margin-top: 30px;"></div>
+	
+	
+<!--右侧菜单栏-->
+	<div id="rightBar">
+		<div class="magicBar">
+			<div class="mbar">
+				<ul>
+					<li class="mbar-mod">
+						<a href="#">
+							<img src="../img/index/rifu_03.png"/>
+							<span>我的</span>
+						</a>
+					</li>
+					<li class="mbar-mod">
+						<a href="#">
+							<img src="../img/index/rifu_06.png"/>
+							<span>消息</span>
+						</a>
+					</li>
+					<li class="mbar-mod">
+						<a href="#">
+							<img src="../img/index/rifu_08.png"/>
+							<span>客服</span>
+						</a>
+					</li>
+					<li id="mbar-mod" class="mbar-mod" style="height: 90px;">
+						<a href="#">
+							<img src="../img/index/rifu_10.png"/>
+							<span style="padding-left: 5px;">购</span>
+							<span style="padding-left: 5px;">物</span>
+							<span style="padding-left: 5px;">车</span>
+							<div id="mbarCart">0</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="cartBar">
+			<div class="cartWarp">0</div>
+		</div>
+	</div>
+	
+<!--右侧工具栏-->
+	<div class="home_go_top_R"></div>
+
+	
+	<script src="../lib/jquery-1.12.3.js"></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+	<script src="../js/common/common.js"></script>
+	<script type="text/javascript">
+		/*头部*/
+		loadHtml("../html/common/header.html","#header");
+		loadHtml("../html/common/logo.html","#logo");
+		loadHtml("../html/common/nav.html","#nav1");
+		/*尾部*/
+		loadHtml("../html/common/footer.html","#footer");
+		/*右侧工具栏*/
+		loadHtml("../html/common/home.html",".home_go_top_R");
+
+	</script>
+	<script src="../js/shopCar.js"></script>
+</body>
+</html>

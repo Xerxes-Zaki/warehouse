@@ -1,0 +1,9 @@
+.xiDing{width: 100%;background: #fff;height: 50px;box-shadow: 0 0 20px #333;position: fixed;display: none;z-index: 10000;}
+
+.logo-form1{margin-left: 430px;position: relative;top: 10px;}
+	.logo-form1 img,.logo-form1 input{float: left;border: none;}
+	#logoText1{width: 345px;height: 30px;border-top: 2px solid #c20525;border-bottom: 2px solid #c20525;outline: none;position: relative;}
+	#tipList1{width: 343px;position: absolute;top: 34px;left: 34px;border: 1px solid #ccc;background: #fff;z-index: 100;}
+	#tipList1 li{padding: 8px;color: #ccc;cursor: pointer;}
+	
+	#logo-sub1{color: #fff;font-size: 15px;padding: 5px 22px;background: #c1182a;border: 2px solid #c30525;}

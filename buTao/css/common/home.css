@@ -1,0 +1,10 @@
+/*右侧工具栏*/
+.home_go_top_R{width: 100px;position: fixed;top: 200px;right: 50%;margin-right: -610px;z-index: 999;}
+	.home_qq{width: 98px;border: 1px solid #e1e1e1; border-top: 2px solid #cf1321;background: #fffaf6;}
+	.home_qq li{border-bottom: 1ps dashed #e1e1e1;line-height: 20px;display: block;margin: 0 5px;padding: 3px 0;text-align: center;}
+	.no_border{border-bottom: none;}
+	.myorder{display: block;text-indent: -9999px;width: 91px;height: 43px;background: url(../../img/regist/css_spirit.png) no-repeat 0 -61px;}
+	.qq{display: block;width: 80px;height: 21px;margin-left: 6px;text-indent: -9999px;background: url(../../img/regist/css_spirit.png) no-repeat -28px -36px;}
+	.exp{display: block;width: 90px;height: 46px;text-indent: -9999px;background: url(../../img/regist/css_spirit.png) no-repeat -95px -61px;}
+	.fav{display: block;width: 90px;height: 43px;text-indent: -9999px;background: url(../../img/regist/css_spirit.png) no-repeat 0 -107px;}
+	.home_go_top{width: 98px;height: 27px;border: 1px solid #e1e1e1;border-top: none;display: block;text-indent: -9999px;background: url(../../img/regist/css_spirit.png) no-repeat -95px -110px;}

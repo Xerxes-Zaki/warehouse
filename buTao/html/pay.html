@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>结算</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" type="text/css" href="../css/common/reset.css">
+    <!--公用的样式-->
+    <link rel="stylesheet" type="text/css" href="../css/common/common.css">
+    <!--头部样式-->
+    <link rel="stylesheet" type="text/css" href="../css/common/header.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common/logo.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="../css/common/nav.css"/>-->
+    <link rel="stylesheet" type="text/css" href="../css/common/style.css"/>
+    <!--尾部样式-->
+    <link rel="stylesheet" type="text/css" href="../css/common/footer.css"/>
+    <!--右侧-->
+    <link rel="stylesheet" type="text/css" href="../css/common/home.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common/rightMenu.css"/>
+	<!-- 自己的样式 -->
+    <link rel="stylesheet" type="text/css" href="../css/pay.css"/>
+</head>
+<body>
+<!-- 头部 -->
+	<div id="header"></div>
+<!--LOGO、搜索-->
+	<div id="logo"></div>
+<!--横向导航栏-->
+	<div id="nav1"></div>
+	
+<!--支付-->
+	<div class="bdw">
+		<div class="bd">
+			<div class="shopping_cart">
+				<div class="shop_menu">
+					<ul class="clearfix">
+						<li class="menu_01">购物车下单</li>
+						<li class="menu_02">在线支付</li>
+						<li class="menu_03">下单成功</li>
+					</ul>
+				</div>
+				<form action="" class="validator">
+					<div class="order_info add_form">
+						<div class="title">
+							*收货人信息
+							<a href="javascript:void(0);">[使用已有地址]</a>
+							<a href="javascript:void(0);">[管理我的收获地址]</a>
+						</div>
+						<!--地址-->
+						<div class="cont">
+							<div class="box">使用新地址</div>
+							<div class="add_site clearfix">
+								<dl>
+									<dt>收货人姓名：</dt>
+									<dd>
+										<input class="input_24" type="text" />
+									</dd>
+									<dt>地区：</dt>
+									<dd>
+										<!--<button id="add_address">添加地址</button>-->
+										<div id="address_info">
+											<select name="province"></select>
+											<select name="city"></select>
+											<select name="district"></select>
+										</div>
+									</dd>
+									<dt>街道地址：</dt>
+									<dd>
+										<input type="text" class="input_30" />
+									</dd>
+									<dt>邮政编码：</dt>
+									<dd>
+										<input class="input_24" type="text" />
+									</dd>
+									<dt>手机号码：</dt>
+									<dd>
+										<input class="input_24" type="text" />
+									</dd>
+									<dt></dt>
+									<dd>
+										<input type="submit" class="btn_red_100" value="保存收货地址" disabled="disabled" />
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+<!--底部-->
+	<div id="footer" style="margin-top: 30px;"></div>
+	
+<!--右侧菜单栏-->
+	<div id="rightBar">
+		<div class="magicBar">
+			<div class="mbar">
+				<ul>
+					<li class="mbar-mod">
+						<a href="#">
+							<img src="../img/index/rifu_03.png"/>
+							<span>我的</span>
+						</a>
+					</li>
+					<li class="mbar-mod">
+						<a href="#">
+							<img src="../img/index/rifu_06.png"/>
+							<span>消息</span>
+						</a>
+					</li>
+					<li class="mbar-mod">
+						<a href="#">
+							<img src="../img/index/rifu_08.png"/>
+							<span>客服</span>
+						</a>
+					</li>
+					<li id="mbar-mod" class="mbar-mod" style="height: 90px;">
+						<a href="#">
+							<img src="../img/index/rifu_10.png"/>
+							<span style="padding-left: 5px;">购</span>
+							<span style="padding-left: 5px;">物</span>
+							<span style="padding-left: 5px;">车</span>
+							<div id="mbarCart">0</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="cartBar">
+			<div class="cartWarp">0</div>
+		</div>
+	</div>
+	
+<!--右侧工具栏-->
+	<div class="home_go_top_R"></div>
+
+	
+	<script src="../lib/jquery-1.12.3.js"></script>
+	<script src="../js/common/common.js"></script>
+	<script type="text/javascript">
+		/*头部*/
+		loadHtml("../html/common/header.html","#header");
+		loadHtml("../html/common/logo.html","#logo");
+		loadHtml("../html/common/nav.html","#nav1");
+		/*尾部*/
+		loadHtml("../html/common/footer.html","#footer");
+		/*右侧工具栏*/
+		loadHtml("../html/common/home.html",".home_go_top_R");
+
+	</script>
+	<script src="../js/pay.js"></script>
+	
+</body>
+</html>

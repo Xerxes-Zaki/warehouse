@@ -1,0 +1,41 @@
+*{ margin: 0; padding: 0; list-style: none;font-family: "微软雅黑";font-size: 12px;text-decoration: none;}
+
+/*整页样式*/
+#box{width: 100%;height: 784px;background: #f3f1f4;}
+	/*头部*/
+	.reg{width: 1000px;margin: 0 auto;padding: 25px 0 100px;}
+	.content{width: 445px;float: left;}
+	.clearfix{height: 90px;}
+	.reg_login_btn{float: right;width: 143px;height: 45px;background: url(../img/login/login_btn.png) no-repeat 0 -190px;margin: 45px 0 0 70px;text-align: center;font-size: 14px;font-weight: bold;color: #fff;line-height: 32px;}
+	.reg_login_btn a{color: #fffaa8;}
+	/*登录界面*/
+	.reg_bg{width: 441px;border: 1ps solid #e1e0e2;background: #f9f8fa;padding: 1px;border-radius: 5px;}
+	.reg_box{width: 401px;padding: 20px;background: #eeecef;}
+	.reg_vip{background: url(../img/regist/login_bg.png) no-repeat 0 0;width: 320px;padding-left: 80px;height: 36px;line-height: 30px;color: #000;margin-bottom: 20px;}
+	.reg_box dt{float: left;clear: left;width: 90px;padding: 3px;text-align: right;color: #555;line-height: 36px;font-size: 14px;}
+	.reg_box dd{float: left;width: 290px;padding: 3px;line-height: 36px;}
+	.reg_box dd #login_btn{background: url(../img/login/login_btn.png) 0 -70px;width: 150px;height: 62px;border: none;text-align: center;outline: none;cursor: pointer;}
+	/*邮箱*/
+	.in_240{float: left;background: #fff;border: 1px solid#e5e3e5;width: 240px;height: 28px;padding: 3px;line-height: 30px;color: #808080;border-radius: 5px;outline: none;}
+	.tip_wrong{float: left;display: inline-block;width: 21px;height: 36px;}
+	.hint{clear: left;color: #d21522;height: 15px;line-height: 20px;}
+
+	.red{color: #d41f2b;}
+	.reg_btn{width: 150px;height: 62px;border: none;text-align: center;font-size: 14px;font-weight: bold;color: #fff;margin-right: 10px;cursor: pointer;background: url(../img/regist/login_btn.png);}
+	
+	.quick_login{background: url(../img/regist/quick_login_bg.png) repeat-x left top;padding: 10px 0;}
+	.quick_login h4{margin-bottom: 10px;font-weight: normal;color: #000;padding-top: 10px;}
+
+	.reg_pic{float: right;width: 500px;padding-top: 130px;text-align: center;}
+
+	#error{width: 380px;padding: 0 10px;height: 30px;line-height: 30px;border: 1px solid #f9dfb2;background: #ffffe0;margin-bottom: 10px;color: #d41f2b;display: none;}
+/*右侧工具栏*/
+.home_go_top_R{width: 100px;position: fixed;top: 200px;right: 50%;margin-right: -610px;z-index: 999;}
+	.home_qq{width: 98px;border: 1px solid #e1e1e1; border-top: 2px solid #cf1321;background: #fffaf6;}
+	.home_qq li{border-bottom: 1ps dashed #e1e1e1;line-height: 20px;display: block;margin: 0 5px;padding: 3px 0;text-align: center;}
+	.no_border{border-bottom: none;}
+	.myorder{display: block;text-indent: -9999px;width: 91px;height: 43px;background: url(../img/regist/css_spirit.png) no-repeat 0 -61px;}
+	.qq{display: block;width: 80px;height: 21px;margin-left: 6px;text-indent: -9999px;background: url(../img/regist/css_spirit.png) no-repeat -28px -36px;}
+	.exp{display: block;width: 90px;height: 46px;text-indent: -9999px;background: url(../img/regist/css_spirit.png) no-repeat -95px -61px;}
+	.fav{display: block;width: 90px;height: 43px;text-indent: -9999px;background: url(../img/regist/css_spirit.png) no-repeat 0 -107px;}
+	.home_go_top{width: 98px;height: 27px;border: 1px solid #e1e1e1;border-top: none;display: block;text-indent: -9999px;background: url(../img/regist/css_spirit.png) no-repeat -95px -110px;}

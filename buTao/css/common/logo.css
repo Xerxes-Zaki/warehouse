@@ -1,0 +1,16 @@
+/*LOGO、搜索*/
+#logo{width: 1000px;height: 91px;margin: 0 auto;position: relative;}
+	.logo-img{;top: 14px;position: absolute;}
+	.logo-form{position: absolute;left: 210px;top: 19px;position: relative;}
+	.logo-form img,.logo-form input{float: left;border: none;}
+	#logoText{width: 345px;height: 30px;border-top: 2px solid #c20525;border-bottom: 2px solid #c20525;outline: none;position: relative;}
+	#tipList{width: 343px;position: absolute;top: 34px;left: 34px;border: 1px solid #ccc;background: #fff;z-index: 100;}
+	#tipList li{padding: 8px;color: #ccc;cursor: pointer;}
+	
+	#logo-sub{color: #fff;font-size: 15px;padding: 5px 22px;background: #c1182a;border: 2px solid #c30525;}
+	.logo-txt{position: absolute;left: 210px;top: 60px;}
+	.logo-txt li{float: left;margin-left: 10px;}
+	.logo-txt a{color: #999;}
+	.logo-txt a:hover{color: #d41f2b;}
+	.logo-img2{position: absolute;left: 680px;top: 19px;}
+	.logo-img3{position: absolute;left: 920px;top: 19px;}

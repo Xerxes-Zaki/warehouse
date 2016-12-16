@@ -1,0 +1,12 @@
+/*右侧菜单栏*/
+	#rightBar{width: 300px;height: 100%;position: fixed;right: -264px;top: 0;z-index: 10000;}
+		.magicBar{width: 36px;height: 100%;float: left;background: #000;position: relative;}
+		.mbar{width: 36px;height: 367px;position: absolute;z-index: 10;left: 0;top: 30%;}
+		.mbar-mod{width: 28px;height: 66px;padding: 4px 4px;margin-bottom: 10px;}
+		.mbar-mod:hover{background: #a90a0a;}
+		.mbar-mod img{margin-left: 3px;}
+		.mbar-mod span{color: #fff;}
+		
+		#mbarCart{width: 20px;height: 20px;line-height: 20px;border-radius: 50%;color: #fff;background: #a90a0a;text-align: center;}
+		
+		.cartBar{width: 264px;height: 100%;float: right;background: #FFF url(../../img/index/kcart_04.gif) no-repeat 45% center;}

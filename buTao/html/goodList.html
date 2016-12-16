@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" type="text/css" href="../css/common/reset.css">
+    <!--公用的样式-->
+    <link rel="stylesheet" type="text/css" href="../css/common/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/common/header.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common/logo.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="../css/common/nav.css"/>-->
+    <link rel="stylesheet" type="text/css" href="../css/common/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common/home.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common/rightMenu.css"/>
+    <!--选项例子-->
+    <link rel="stylesheet" type="text/css" href="../css/Fliter.css"/>
+   <!-- 框-->
+   <link rel="stylesheet" type="text/css" href="../css/common/list.css"/>
+	<!-- 自己的样式 -->
+    <link rel="stylesheet" type="text/css" href="../css/goodList.css"/>
+</head>
+<body>
+<!-- 头部 -->
+	<div id="header"></div>
+<!--LOGO、搜索-->
+	<div id="logo"></div>
+<!--横向导航栏-->
+	<div id="nav1"></div>
+	
+<!--分类-->	
+	<div class="topFenLi" id="searchCat">
+		<ul class="searchClass">
+			<li class="c_a clearfix">
+				<span>网购</span>
+				<a href="#" class="on">全部</a>
+				<a href="#">服装配饰<em>(695)</em></a>
+				<a href="#"> 箱包鞋靴<em>(0)</em></a>
+				<a href="#">化妆护理<em>(0)</em></a>
+				<a href="#">母婴玩具<em>(71)</em></a>
+				<a href="#">食品保健<em>(0)</em></a>
+				<a href="#">家居百货<em>(0)</em></a>
+				<a href="#">运动户外<em>(0)</em></a>
+				<a href="#">其他<em>(0)</em></a>
+				<div class="son">
+					<a href="#">全部</a>
+					<a href="#">钟表饰品<em>(0)</em></a>
+					<a href="#">服装配件<em>(0)</em></a>
+					<a href="#">精致内衣<em>(0)</em></a>
+					<a href="#">时尚家居<em>(0)</em></a>
+					<a href="#">精品男装<em>(45)</em></a>
+					<a href="#">品牌女装<em>(12)</em></a>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="brandRank clearfix">
+		<div id="rank" class="rank clearfix">
+			<span>排序</span>
+			<ul>
+				<li>
+					<a href="#" class="arrowsTop">折扣</a>
+				</li>
+				<li>
+					<a href="#" class="arrwsBottom">价格</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+<!--列表-->
+	<div class="listBox">
+		<ul>
+			<li></li>
+			<li></li>
+			<li style="margin-right: 0;"></li>
+			<li></li>
+			<li></li>
+			<li style="margin-right: 0;"></li>
+			<li></li>
+			<li></li>
+			<li style="margin-right: 0;"></li>
+			<li></li>
+			<li></li>
+			<li style="margin-right: 0;"></li>
+			<li></li>
+			<li></li>
+			<li style="margin-right: 0;"></li>
+			<li></li>
+			<li></li>
+			<li style="margin-right: 0;"></li>
+			<li></li>
+			<li></li>
+			<li style="margin-right: 0;"></li>
+			<li></li>
+			<li></li>
+			<li style="margin-right: 0;"></li>
+			<li></li>
+			<li></li>
+			<li style="margin-right: 0;"></li>
+			<li></li>
+			<li></li>
+			<li style="margin-right: 0;"></li>
+		</ul>
+	</div>
+	
+	<div class="pageDiv"></div>
+	
+<!--底部-->
+	<div id="footer"></div>
+<!--右侧菜单栏-->
+	<div id="rightBar">
+		<div class="magicBar">
+			<div class="mbar">
+				<ul>
+					<li class="mbar-mod">
+						<a href="#">
+							<img src="../img/index/rifu_03.png"/>
+							<span>我的</span>
+						</a>
+					</li>
+					<li class="mbar-mod">
+						<a href="#">
+							<img src="../img/index/rifu_06.png"/>
+							<span>消息</span>
+						</a>
+					</li>
+					<li class="mbar-mod">
+						<a href="#">
+							<img src="../img/index/rifu_08.png"/>
+							<span>客服</span>
+						</a>
+					</li>
+					<li id="mbar-mod" class="mbar-mod" style="height: 90px;">
+						<a href="#">
+							<img src="../img/index/rifu_10.png"/>
+							<span style="padding-left: 5px;">购</span>
+							<span style="padding-left: 5px;">物</span>
+							<span style="padding-left: 5px;">车</span>
+							<div id="mbarCart">0</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="cartBar">
+			<div class="cartWarp">0</div>
+		</div>
+	</div>
+	
+<!--右侧工具栏-->
+	<div class="home_go_top_R"></div>
+
+	
+	<script type="text/javascript" src="../lib/jquery-1.12.3.js"></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+	<script type="text/javascript" src="../js/common/common.js"></script>
+	<script type="text/javascript">
+		/*头部*/
+		loadHtml("../html/common/header.html","#header");
+		loadHtml("../html/common/logo.html","#logo");
+		loadHtml("../html/common/nav.html","#nav1");
+		/*框*/
+		loadHtml("../html/common/list.html",".listFrame");
+		/*尾部*/
+		loadHtml("../html/common/footer.html","#footer");
+		/*右侧工具栏*/
+		loadHtml("../html/common/home.html",".home_go_top_R");
+
+	</script>
+	<script type="text/javascript" src="../js/jquery.page.js" ></script>
+	<script type="text/javascript" src="../js/Filter.js" ></script>
+	<script src="../js/goodList.js"></script>
+	
+</body>
+</html>
